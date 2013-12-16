@@ -1,0 +1,29 @@
+h1 {
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size: 100px;
+	line-height:100px;
+}
+
+h2 {
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size: 40px;
+}
+
+a {
+	text-decoration:none;
+}
+
+#container {
+	width: 80%;
+	max-width:800px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size:25px;
+	line-height:30px;
+}
+
+input {
+	font-size: 14px;
+	padding:10px;
+}

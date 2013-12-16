@@ -1,0 +1,15 @@
+<table>
+	<thead>
+		<tr>
+			<td>Album Title</td>
+			<td>Number of Songs</td>
+		</tr>
+	</head>
+
+	<% @list_of_things.map do |album| %>
+	<tr>
+		<td><%= album["title"] %></td>
+		<td><%= album["count"] %></td>
+	</tr>
+	<% end%>
+</table>
