@@ -21,9 +21,29 @@ a {
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size:25px;
 	line-height:30px;
+	margin-top:100px;
+	margin-bottom: 100px;
 }
 
 input {
 	font-size: 14px;
 	padding:10px;
+}
+
+button {
+	background:black;
+	height:39px;
+	color:white;
+	border: 0px;
+	bottom:2px;
+	position: relative;
+}
+
+tr:nth-child(odd) {
+	background: rgba(204,204,204,.5);
+	padding:5px;
+}
+
+table {
+	width:100%;
 }

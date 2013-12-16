@@ -1,11 +1,17 @@
+		<% full_name = [] %>
+		<% name = params[:artist].split %>
+		<% name.each do |name| %>
+		<% full_name << [ name.capitalize, " "] %>
+		<% end %>
+	<h2><%= full_name.join %></h2>
+
 <table>
 	<thead>
 		<tr>
 			<td>Album Title</td>
 			<td>Number of Songs</td>
 		</tr>
-	</head>
-
+	</thead>
 	<% @list_of_things.map do |album| %>
 	<tr>
 		<td><%= album["title"] %></td>

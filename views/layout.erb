@@ -8,23 +8,26 @@
 	<style>
 	
 	body {
-		color: rgb(<%=rand(0..255)%>,<%=rand(0..255)%>,<%=rand(0..255)%>);
+		color: rgb(<%=rand(0..155)%>,<%=rand(0..155)%>,<%=rand(0..155)%>);
 	}
 
 	a {
-		color: rgb(<%=rand(0..255)%>,<%=rand(0..255)%>,<%=rand(0..255)%>);
+		color: rgb(<%=rand(155..255)%>,<%=rand(155..255)%>,<%=rand(155..255)%>);
 	}
-	a:hover {
-		color: rgb(<%=rand(0..255)%>,<%=rand(0..255)%>,<%=rand(0..255)%>);
+	a:hover, button:hover {
+		color: rgb(<%=rand(155..255)%>,<%=rand(155..255)%>,<%=rand(155..255)%>);
 	}
 	body {
 		background: rgb(<%=rand(0..255)%>,<%=rand(0..255)%>,<%=rand(0..255)%>);
 	}
+
+
 	</style>
 	<title>MusicBrainz Sux</title>
 </head>
 <body>
 	<div id="container">
+	<a href="/"><h1>Synesthese that!</h1></a>
 	<%= yield %>
 </div>
 </body>
